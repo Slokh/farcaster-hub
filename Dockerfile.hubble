@@ -1,0 +1,5 @@
+FROM farcasterxyz/hubble:latest
+
+COPY scripts/init-hubble.sh init.sh
+
+CMD ["/bin/sh", "init.sh"]
